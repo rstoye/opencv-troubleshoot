@@ -80,7 +80,7 @@ async function main() {
     const center = new openCv.Point2(image.cols / 2, image.rows / 2);
     const rotationMatrix = openCv.getRotationMatrix2D(center, angleAdjust, 1);
 
-    console.info(`${index} - warfAffine`);
+    console.info(`${index} - warpAffine`);
     const angleAdjustedImage = image.warpAffine(
       rotationMatrix,
       new openCv.Size(image.cols, image.rows),
