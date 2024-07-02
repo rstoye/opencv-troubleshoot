@@ -1,0 +1,26 @@
+{
+  "name": "opencv-troubleshoot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "nodemon --inspect",
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@u4/opencv4nodejs": "^7.0.0",
+    "nodemon": "^3.1.0",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.15.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "prettier": "^3.2.5"
+  }
+}
