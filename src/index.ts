@@ -1,7 +1,7 @@
 import * as openCv from '@u4/opencv4nodejs';
 import { join } from 'path';
 
-const docPath = join(__dirname.replace('/src', ''), 'documents');
+const docPath = join(__dirname.slice(0, -3), 'documents');
 
 const getVerticalLines = async (img: openCv.Mat) => {
   let processedImage = await img.bgrToGrayAsync();
